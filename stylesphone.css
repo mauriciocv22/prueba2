@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*CONTEINERS INVISIBLES VERSION NAVEGADOR*/ 
+#header{
+    display: none;
+}
+#hero{
+    display: none;
+}
+#somos-comeximtto{
+    display: none;
+}
+#body__page{
+    display: none;
+}
+#social-media{
+    display: none;
+}
+#final{
+    display: none;
+}
+#footercel{
+    display: none;
+}
+
+/*CONTEINERS INVISIBLES VERSION NAVEGADOR*/ 
+
+.logo img{
+    padding: 20px;
+    height: 80px; /*tamaño del logo del header*/
+}
+
+
+#headercel{
+    display: none;
+}
+
+#herocel{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue; /*COLOR DEL TEXTO*/
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.452))
+    ,url("https://images.pexels.com/photos/459728/pexels-photo-459728.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#somos-proya{
+    padding: 20p 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue; /*COLOR DEL TEXTO*/
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.644),
+        rgb(0, 0, 0))
+    ,url("https://images.pexels.com/photos/2569839/pexels-photo-2569839.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#somos-proya .parrafocomeximtto{
+    color: white;
+    align-items: center;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif; 
+    text-align: justify;
+}
+#somos-proya .color-acento{
+    color: #2196f3;
+}
+
+#nuestros-programascel{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue; /*COLOR DEL TEXTO*/
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(0, 0, 0, 0.644),
+        rgb(0, 0, 0))
+    ,url("https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#nuestros-programascel .carta{
+    color: white;
+    align-items: center;
+    margin: 10px;
+    font-size: 10px;
+    font-family: 'Poppins',sans-serif; 
+    text-align: justify;
+}
+
+/* REDES SOCIALES BOTONES */
+ 
+#social-mediacel{
+    background-image: linear-gradient(#000000,#00000070,#000000)
+    ,url("https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin:0;
+    padding:10px 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh
+}
+#social-mediacel a{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+}
+/* REDES SOCIALES BOTONES */
+
+
+
+/* SECCION FINAL */
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#000000,#ffffff00,#000000),url("https://images.pexels.com/photos/414916/pexels-photo-414916.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+}
+
+
+#final h2{
+    text-shadow: 5px 5px 10px#000000;
+    font-size: 10vw;
+}
+
+#final button{
+    font-size: 1.25em;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.479);
+    font-weight: lighter;
+    color: #ffffff; /*letra del boton del mapa*/
+    background-color: #2d2d3a; /*fondo del boton del mapa*/
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 10px#000000;
+    transition: .45s;
+}
+
+#final button:hover{
+    color: #ffffff; /*letra del boton del mapa*/
+    background-color: #2196f3; /*fondo del boton del mapa*/
+    border-radius: 50px;
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 10px 10px 20px#000000;
+}
+
+/* ACABA SECCION FINAL */
+
+
+/* PIE DE PAGINA */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.76);
+    padding: 10px;
+}
+
+footer .container{
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* ACABA PIE DE PAGINA */
